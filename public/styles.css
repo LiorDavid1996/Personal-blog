@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #6c757d;
+    background-color: #f4f6f8;
 }
 
 header {
@@ -45,4 +45,71 @@ footer p {
     margin-bottom: 0;
     font-size: 0.875rem;
     color: #6c757d;
+}
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .card {
+    background-color: #444;
+    color: #fff;
+}
+
+body.dark-mode .card-body {
+    background-color: #444;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+body.dark-mode .bg-light {
+    background-color: #222 !important;
+    color: #fff;
+}
+
+body.dark-mode header {
+    background-color: #222;
+}
+#darkModeToggle {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+    border-color: #333;
+}
+
+#darkModeToggle:hover {
+    background-color: #e2e6ea; /* Slightly darker on hover */
+    color: #000;
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+}
+
+body.dark-mode #darkModeToggle:hover {
+    background-color: #4a4a4a;
+}
+#postCarousel .carousel-item {
+    padding: 20px;
+}
+
+#postCarousel .card {
+    margin: 0 auto;
+    max-width: 18rem;
+}
+
+#postCarousel .carousel-control-prev,
+#postCarousel .carousel-control-next {
+    width: 5%;
+}
+
+#postCarousel .carousel-control-prev-icon,
+#postCarousel .carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    padding: 10px;
 }
